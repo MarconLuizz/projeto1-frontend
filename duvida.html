@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/duvida.css" />
+    <title>Duvida</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Imagens/logoArv.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <ul>
+            <li><a id="inicio-btt" href="index.html">Início</a></li>
+            <li><a href="sobrenos.html">Sobre nós</a></li>
+            <li><a href="duvida.html">Duvidas</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <section class="area-duvida">
+      <form>
+        <label for="email">Seu e-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="duvida">Digite sua dúvida:</label>
+        <textarea id="duvida" name="duvida" rows="8" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>

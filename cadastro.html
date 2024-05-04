@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/cadastro.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <section class="area-cadastro">
+      <div class="cadastro">
+        <div>
+          <img src="Imagens/logoArv.png" />
+        </div>
+
+        <form action="login.html">
+          <input type="text" nome="nome" placeholder="Nome completo" required />
+          <input type="email" nome="email" placeholder="email" required />
+          <input type="password" nome="senha" placeholder="senha" required />
+          <input type="text" nome="cidade" placeholder="cidade" required />
+          <input type="number" nome="idade" placeholder="idade" required />
+          <br />
+          <label>Selecione seu gênero</label>
+          <select name="genero" required>
+            <option value=""></option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+          </select>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

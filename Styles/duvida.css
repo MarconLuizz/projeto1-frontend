@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #06a257;
+  color: white;
+  padding: 5px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.logo img {
+  width: 100px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+nav ul li a {
+  background-color: #06a257;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+nav ul li a:hover {
+  transition: 0.5;
+  color: #06a257;
+  border-color: #06a257;
+  background-color: #ffffff;
+}
+
+.area-duvida {
+  color: rgb(0, 0, 0);
+  width: 400px;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #06a257;
+}
+.area-duvida form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.area-duvida form input[type="email"],
+.area-duvida form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #c1fbdf;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
